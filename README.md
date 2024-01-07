@@ -3,15 +3,10 @@
 ## Progress:
 
 1. **Leaf Disease API**
-   - The API we are currently using utilizes the VGG16 Deep Learning model, pre-trained on numerous plants.
-   - It can predict the type of diseases based on an input image of a leaf.
-   - Built locally using Flask, the "Leaf Disease API.py" should be run first before anything else.
-   - The API can be accessed via Postman using the POST method through the `/predict` route.
-
-## Things to add:
-
-1. Handle image data from Flutter and send it through the API.
-2. Build multiple page endpoints with a Login Page.
+   - Utilizes the VGG16 Deep Learning model, pre-trained on numerous plants.
+   - Predicts the type of diseases based on an input image of a leaf.
+   - Built locally using Flask; run "Leaf Disease API.py" first.
+   - Accessible via Postman using the POST method through the `/predict` route.
 
 ## Running the files:
 
@@ -26,3 +21,16 @@
 
 ![Screenshot - Postman Test](/Screenshot%20-%20Postman%20Test.png)
 
+## Things to add:
+
+1. **Flutter Predict Page**
+   - Develop UI to call the API and display predictions.
+   - Prioritize development due to potential complexity in handling image data.
+
+2. **Flutter Home Page**
+   - Develop as the second step to establish the basics of the app.
+   - Introduce users to the app's purpose and objectives.
+
+3. **Flutter Login Page**
+   - Authenticate users to access the application.
+   - Develop last to ensure functionality of other features first.
