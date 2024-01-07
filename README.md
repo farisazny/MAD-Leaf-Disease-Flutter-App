@@ -1,6 +1,6 @@
 # MAD-Leaf-Disease-Flutter-App
 
-## Progress:
+## Progress So Far:
 
 1. **Leaf Disease API**
    - Utilizes the VGG16 Deep Learning model, pre-trained on numerous plants.
