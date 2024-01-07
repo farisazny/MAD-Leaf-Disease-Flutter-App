@@ -23,6 +23,6 @@
    3. Click on Body, add "img" as the Key, and upload the image as the Value.
    4. Press Send to initiate the GET request.
 
-![Screenshot - Postman Test](MAD-Leaf-Disease-Flutter-App/Screenshot%20-%20Postman%20Test.png)
+![Screenshot - Postman Test](/Screenshot%20-%20Postman%20Test.png)
 
 (Insert the correct path to the screenshot file in the placeholder above)
