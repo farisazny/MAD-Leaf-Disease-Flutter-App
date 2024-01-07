@@ -5,7 +5,8 @@
 1. **Leaf Disease API**
    - The API we are currently using utilizes the VGG16 Deep Learning model, pre-trained on numerous plants.
    - It can predict the type of diseases based on an input image of a leaf.
-   - Built locally using Flask, the API can be accessed via Postman using the POST method through the `/predict` route.
+   - Built locally using Flask, the "Leaf Disease API.py" should be run first before anything else.
+   - The API can be accessed via Postman using the POST method through the `/predict` route.
 
 ## Things to add:
 
@@ -25,4 +26,3 @@
 
 ![Screenshot - Postman Test](/Screenshot%20-%20Postman%20Test.png)
 
-(Insert the correct path to the screenshot file in the placeholder above)
