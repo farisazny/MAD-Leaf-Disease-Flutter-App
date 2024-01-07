@@ -15,8 +15,7 @@
 ## Running the files:
 
 ### a. Place the LeafModel.h5 into the Models folder.
-   - [Model Download Link](https://drive.google.com/file/d/1n6spyS4-AnUtszy1_JwU09VcoJ0VNTOT/view?usp=sharing)
-   - Note: Download the LeafModel.h5 (the file responsible for leaf disease prediction, 50MB) [here](https://drive.google.com/file/d/1n6spyS4-AnUtszy1_JwU09VcoJ0VNTOT/view?usp=sharing) and place it under `Leaf Disease API > Models`.
+   - Download the LeafModel.h5 [here](https://drive.google.com/file/d/1n6spyS4-AnUtszy1_JwU09VcoJ0VNTOT/view?usp=sharing) and place it under `Leaf Disease API > Models`.
 
 ### b. Using Postman to test the API:
    1. Press the POST method.
