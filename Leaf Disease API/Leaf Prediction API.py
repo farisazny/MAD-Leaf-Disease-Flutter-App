@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
@@ -5,11 +6,16 @@ from tensorflow.keras.applications.vgg16 import preprocess_input
 import numpy as np
 from io import BytesIO
 
+# Set the working directory to the script's directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 app = Flask(__name__)
 
 # Load the model with the correct input shape
-# Adjust target_size according to the input size expected by your LeafModel
-leaf_disease_model = load_model('Model/LeafModel.h5')
+script_directory = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(script_directory, "LeafModel.h5")
+leaf_disease_model = load_model(model_path)
+
 
 label_names = ['Scab', 'Black rot', 'Cedar apple rust', 'Healthy',
                'Powdery mildew', 'healthy', 'Cercospora ',
@@ -20,6 +26,10 @@ label_names = ['Scab', 'Black rot', 'Cedar apple rust', 'Healthy',
                'Early blight', 'Late blight', 'Leaf Mold', 'Septoria leaf spot',
                'Spider mites', 'Target Spot', 'Yellow Leaf Curl Virus', 'mosaic virus',
                'Healthy']
+
+@app.route("/testConnection", methods=['GET'])
+def test_connection():
+    return jsonify({"message": "Connection Successful"})
 
 @app.route("/predict", methods=['POST'])
 def predict_leaf_disease():
