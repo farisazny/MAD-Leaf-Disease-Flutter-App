@@ -21,6 +21,13 @@
 
 ![Screenshot - Postman Test](/Screenshot%20-%20Postman%20Test.png)
 
+### c. Run the API.py and main.dart simulataneously
+   1. Make sure that the terminal has a python and dart file running.
+   2. Note that API.py will tell you to use "127.0.0.1"
+   3. But we will be using "10.0.2.2" port in main.dart since we're using an emulator.
+
+![Screenshot - Setup to Run](/Screenshot%20-%20Setup%20to%20Run.png)
+
 ## Things to add:
 
 1. **Flutter Predict Page**
