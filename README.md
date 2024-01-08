@@ -30,9 +30,9 @@
 
 ## Things to add:
 
-1. **Flutter Predict Page**
-   - Develop UI to call the API and display predictions.
-   - Prioritize development due to potential complexity in handling image data.
+1. **Flutter Predict Page** :white_check_mark:
+   - Develop UI to call the API and display predictions. 
+   - Prioritize development due to potential complexity in handling image data. 
 
 2. **Flutter Home Page**
    - Develop as the second step to establish the basics of the app.
