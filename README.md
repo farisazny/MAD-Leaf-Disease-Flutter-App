@@ -3,7 +3,8 @@
 ## Progress So Far:
 
 1. **Leaf Disease API**
-   - Utilizes the VGG16 Deep Learning model, pre-trained on numerous plants.
+   - Utilizes the VGG16 pre-trained deep learning model by Keras.
+   - The model is tuned to learn about numerous plants diseases.
    - Predicts the type of diseases based on an input image of a leaf.
    - Built locally using Flask; run "Leaf Disease API.py" first.
    - Accessible via Postman using the POST method through the `/predict` route.
@@ -11,7 +12,7 @@
 ## Running the files:
 
 ### a. Place the LeafModel.h5 into the Models folder.
-   - Download the LeafModel.h5 [here](https://drive.google.com/file/d/1n6spyS4-AnUtszy1_JwU09VcoJ0VNTOT/view?usp=sharing) and place it under `Leaf Disease API > Models`.
+   - Download the LeafModel.h5 [here](https://drive.google.com/file/d/1n6spyS4-AnUtszy1_JwU09VcoJ0VNTOT/view?usp=sharing) and place it under `Leaf Disease API`.
 
 ### b. Using Postman to test the API:
    1. Press the POST method.
