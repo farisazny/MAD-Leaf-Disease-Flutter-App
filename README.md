@@ -1,5 +1,7 @@
 # MAD-Leaf-Disease-Flutter-App
 
+App Idea: We're going to create a simple application in order to predict whether a leaf is infected with a disease or not. This is to accelerate the process of identifying the areas of plantations that are infected so that farmers can plan better on how to mitigate this issue.
+
 ## Progress So Far:
 
 1. **Leaf Disease API** :white_check_mark:
@@ -8,6 +10,18 @@
    - Predicts the type of diseases based on an input image of a leaf.
    - Built locally using Flask; run "Leaf Disease API.py" first.
    - Accessible via Postman using the POST method through the `/predict` route.
+
+2. **Flutter Predict Page** :white_check_mark:
+   - Develop UI to call the API and display predictions. 
+   - Prioritize development due to potential complexity in handling image data.
+  
+3. **Flutter Home Page** [On the Way!]
+   - Develop as the second step to establish the basics of the app.
+   - Introduce users to the app's purpose and objectives.
+
+4. **Flutter Login Page** [On the Way!]
+   - Authenticate users to access the application.
+   - Develop last to ensure functionality of other features first.
 
 ## Running the files:
 
@@ -29,16 +43,8 @@
 
 ![Screenshot - Setup to Run](/Screenshot%20-%20Setup%20to%20Run.png)
 
-## Things to add:
 
-1. **Flutter Predict Page** :white_check_mark:
-   - Develop UI to call the API and display predictions. 
-   - Prioritize development due to potential complexity in handling image data. 
 
-2. **Flutter Home Page**
-   - Develop as the second step to establish the basics of the app.
-   - Introduce users to the app's purpose and objectives.
 
-3. **Flutter Login Page**
-   - Authenticate users to access the application.
-   - Develop last to ensure functionality of other features first.
+
+
