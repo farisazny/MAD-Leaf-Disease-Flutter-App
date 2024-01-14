@@ -2,7 +2,7 @@
 
 ## Progress So Far:
 
-1. **Leaf Disease API**
+1. **Leaf Disease API** :white_check_mark:
    - Utilizes the VGG16 pre-trained deep learning model by Keras.
    - The model is tuned to learn about numerous plants diseases.
    - Predicts the type of diseases based on an input image of a leaf.
