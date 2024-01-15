@@ -23,7 +23,9 @@ App Idea: We're going to create a simple application in order to predict whether
    - Authenticate users to access the application.
    - Develop last to ensure functionality of other features first.
 
-## Running the files:
+## Building the Leaf Disease API (Local and Railway Web Deployment)
+As seen from a-c below, we first built the API locally. Then, we realized that running it locally and developing the Flutter app at the same time will cost a lot of compute power onto our machine.
+As seen from point d onwards, we have deployed the API using Railway and can be accessed online. We subscribed to the $5 plan and deployed using Flask framework. 
 
 ### a. Place the LeafModel.h5 into the Models folder.
    - Download the LeafModel.h5 [here](https://drive.google.com/file/d/1n6spyS4-AnUtszy1_JwU09VcoJ0VNTOT/view?usp=sharing) and place it under `Leaf Disease API`.
@@ -43,8 +45,13 @@ App Idea: We're going to create a simple application in order to predict whether
 
 ![Screenshot - Setup to Run](/Screenshot%20-%20Setup%20to%20Run.png)
 
+### d. Deploying the API online
+   1. We have created a separate Github repo to contain our API files there.
+   2. We provide Railway with the Github repo link and it will find the @app route to configure the server.
+   3. The API needs to install all libraries needed from the requirements.txt.
+   4. We tested the /testConnection route of our API for simplicity to make sure that the API is actually deployed.
 
-
+![Screenshot - Railway API Deployment](/Screenshot%20-%20Railway%20API%20Deployment.png)
 
 
 
