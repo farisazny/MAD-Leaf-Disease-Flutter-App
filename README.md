@@ -34,7 +34,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    1. Press the POST method.
    2. Click on Headers, add "Content-Type" as the Key, and "multipart/form-data" as the Value.
    3. Click on Body, add "img" as the Key, and upload the image as the Value.
-   4. Press Send to initiate the GET request.
+   4. Press Send to initiate the POST request.
 
 ![Screenshot - Postman Test](/Screenshot%20-%20Postman%20Test.png)
 
@@ -50,6 +50,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    2. We provide Railway with the Github repo link and it will find the @app route to configure the server.
    3. The API needs to install all libraries needed from the requirements.txt.
    4. We tested the /testConnection route of our API for simplicity to make sure that the API is actually deployed.
+   5. The API can be accessed here 
 
 ![Screenshot - Railway API Deployment](/Screenshot%20-%20Railway%20API%20Deployment.png)
 
