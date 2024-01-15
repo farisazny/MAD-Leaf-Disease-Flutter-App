@@ -49,6 +49,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    1. We have created a separate Github repo to contain our API files there.
    2. We provide Railway with the Github repo link and it will find the @app route to configure the server.
    3. The API needs to install all libraries needed from the requirements.txt.
+   4. We tested the /testConnection route of our API for simplicity to make sure that the API is actually deployed.
 
 ![Screenshot - Railway API Deployment](/Screenshot%20-%20Railway%20API%20Deployment.png)
 
