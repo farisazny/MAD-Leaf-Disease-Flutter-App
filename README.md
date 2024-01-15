@@ -50,7 +50,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    2. We provide Railway with the Github repo link and it will find the @app route to configure the server.
    3. The API needs to install all libraries needed from the requirements.txt.
 
-![Screenshot - Setup to Run](/Screenshot%20-%Railway%20API%20Deployment.png)
+![Screenshot - Railway API Deployment](/Screenshot%20-%Railway%20API%20Deployment.png)
 
 
 
