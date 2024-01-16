@@ -2,7 +2,13 @@
 
 App Idea: We're going to create a simple application in order to predict whether a leaf is infected with a disease or not. This is to accelerate the process of identifying the areas of plantations that are infected so that farmers can plan better on how to mitigate this issue.
 
-## Part 1: Progress So Far:
+## Part 1: Group Project Requirements
+- The use of Widgets to create your own UI :white_check_mark:
+- The use of HTTP library for fetching data/img online
+- Use your own API or any free or paid API. You can rely on more than 1 API provider :white_check_mark:
+- Use of page routing to navigate between pages of your app :white_check_mark:
+
+## Part 2: Progress So Far:
 
 1. **Leaf Disease API** :white_check_mark:
    - Utilizes the VGG16 pre-trained deep learning model by Keras.
@@ -23,7 +29,7 @@ App Idea: We're going to create a simple application in order to predict whether
    - Authenticate users to access the application.
    - Develop last to ensure functionality of other features first.
 
-## Part 2: Building the Leaf Disease API (Local and Railway Web Deployment)
+## Part 3: Building the Leaf Disease API (Local and Railway Web Deployment)
 As seen from a-c below, we first built the API locally. Then, we realized that running it locally and developing the Flutter app at the same time will cost a lot of compute power onto our machine.
 As seen from point d onwards, we have deployed the API using Railway and can be accessed online. We subscribed to the $5 plan and deployed using Flask framework. 
 
