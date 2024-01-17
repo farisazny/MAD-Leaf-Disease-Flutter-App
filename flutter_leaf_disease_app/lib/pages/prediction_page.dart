@@ -133,7 +133,7 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
                 context,
                 MaterialPageRoute(
                     builder: (context) =>
-                        const PredictionPage()), // Replace with your DashboardPage widget
+                        const PredictionPage()),
               );
             },
           
