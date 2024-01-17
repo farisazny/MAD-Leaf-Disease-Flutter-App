@@ -37,11 +37,11 @@ App Idea: We're going to create a simple application in order to predict whether
    - Develop UI to call the API and display predictions. 
    - Prioritize development due to potential complexity in handling image data.
   
-3. **Flutter Home Page** [On the Way!]
+3. **Flutter Home Page** :white_check_mark:
    - Develop as the second step to establish the basics of the app.
    - Introduce users to the app's purpose and objectives.
 
-4. **Flutter Login Page** [On the Way!]
+4. **Flutter Welcome Page** :white_check_mark:
    - Authenticate users to access the application.
    - Develop last to ensure functionality of other features first.
 
@@ -75,6 +75,19 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    5. The API can be accessed here: https://flask-production-4847.up.railway.app/testConnection
 
 ![Screenshot - Railway API Deployment](/Screenshot%20-%20Railway%20API%20Deployment.png)
+
+## Part 4: Final Flutter Application
+
+### a. User Interface
+
+
+### b. Functions
+1. First page - button routing
+2. Home Page - Side navigation bar
+3. Home page - Dashboard, Prediction, About
+4. Home Page - Icons
+5. Home Page - custom Widgets in /components - drawer, list_tile, text_list
+6. Prediction page - Load ML API, buttons - TestConnection, fetch example Image, fetch own Image,
 
 
 
