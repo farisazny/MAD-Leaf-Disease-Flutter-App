@@ -1,22 +1,14 @@
 # MAD-Leaf-Disease-Flutter-App
 
-App Idea: Creating simple application in order to predict whether a leaf is infected with a disease or not. This is to accelerate the process of identifying the areas of plantations that are infected so that farmers can plan better on how to mitigate this issue. With the help of a Deep Learning model trained on VGG-16 architecture, this model will able to help to detect diseases on plants.
+App Idea: Creating a simple application to predict whether a leaf is infected with a disease or not. This is to accelerate the process of identifying the areas of plantations that are infected so that farmers can plan better on how to mitigate this issue. With the help of a Deep Learning model trained on VGG-16 architecture, this model will be able to help detect diseases on plants.
 
 ## Meet the Team
-1. **Faris Farhan bin Azlan (2014177)**  :monocle_face:
-   - Building Machine Learning model
-   - Building Local API on Flask
-   - Deploying API online to Railway
 
-2. **Muhammad Faris bin Musa (2013259)** :sunglasses:
-   - Flutter UI/UX Designer
-   - Creating Widgets
-   - Flutter Page Routing
-
-3. **Muhammad Ikmal Hafiz bin Jauffery (2016329)** :cowboy_hat_face:
-   - Flutter Page Routing
-   - Handling HTTP Requests
-   - Backend Developer
+| No. | Team Member                                   | Responsibilities                                      |
+|----|-----------------------------------------------|--------------------------------------------------------|
+| 1. | **Faris Farhan bin Azlan (2014177)**  :monocle_face:        | - Building Machine Learning model <br> - Building Local API on Flask <br> - Deploying API online to Railway |
+| 2. | **Muhammad Faris bin Musa (2013259)**  :sunglasses:        | - Flutter UI/UX Designer <br> - Creating Widgets <br> - Flutter Page Routing |
+| 3. | **Muhammad Ikmal Hafiz bin Jauffery (2016329)** :cowboy_hat_face: | - Flutter Page Routing <br> - Handling HTTP Requests <br> - Backend Developer |
 
 
 ## Part 1: iTaleem Project Requirements Checklist :dart:
