@@ -81,9 +81,11 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
 ### a. User Interface
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="/Screenshot%20-%20Welcome%20Page.png" alt="Screenshot - Welcome Page" style="width: 200px; height: 450px;">
-  <img src="/Screenshot%20-%20Drawer.png" alt="Screenshot - Drawer" style="width: 200px; height: 450px;">
-   <img src="/Screenshot%20-%20Dashboard.png" alt="Screenshot - Dashboard" style="width: 200px; height: 450px;">
+  <img src="/Screenshot%20-%20Welcome%20Page.png" alt="Screenshot - Welcome Page" style="width: 180px; height: 420px;">
+  <img src="/Screenshot%20-%20Drawer.png" alt="Screenshot - Drawer" style="width: 180px; height: 420px;">
+   <img src="/Screenshot%20-%20Dashboard.png" alt="Screenshot - Dashboard" style="width: 180px; height: 420px;">
+   <img src="/Screenshot%20-%20About.png" alt="Screenshot - About" style="width: 180px; height: 420px;">
+   <img src="/Screenshot%20-%20Prediction.png" alt="Screenshot - Prediction" style="width: 180px; height: 420px;">
 </div>
 
 
