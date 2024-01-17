@@ -4,11 +4,12 @@ App Idea: Creating a simple application to predict whether a leaf is infected wi
 
 ## Meet the Team
 
-| No. | Team Member                                   | Matric No    | Responsibilities                                      |
-|----|-----------------------------------------------|--------------|--------------------------------------------------------|
-| 1. | **Faris Farhan bin Azlan**  :monocle_face:     | 2014177      | - Building Machine Learning model <br> - Building Local API on Flask <br> - Deploying API online to Railway |
-| 2. | **Muhammad Faris bin Musa**  :sunglasses:    | 2013259      | - Flutter UI/UX Designer <br> - Creating Widgets <br> - Flutter Page Routing |
-| 3. | **Muhammad Ikmal Hafiz bin Jauffery** :cowboy_hat_face: | 2016329      | - Flutter Page Routing <br> - Handling HTTP Requests <br> - Backend Developer |
+| No. | Team Member                                   | Matric No    | Role                                      | Responsibilities                                      |
+|----|-----------------------------------------------|--------------|-------------------------------------------|--------------------------------------------------------|
+| 1. | **Faris Farhan bin Azlan**  :monocle_face:     | 2014177      | - Machine Learning Engineer               | - Building Machine Learning model <br> - Building Local API on Flask <br> - Deploying API online to Railway |
+| 2. | **Muhammad Faris bin Musa**  :sunglasses:    | 2013259      | - Flutter UI/UX Designer                  | - Creating Widgets <br> - Flutter Page Routing |
+| 3. | **Muhammad Ikmal Hafiz bin Jauffery** :cowboy_hat_face: | 2016329      | - Backend Developer                       | - Flutter Page Routing <br> - Handling HTTP Requests <br> - Backend Developer |
+
 
 
 ## Part 1: iTaleem Project Requirements Checklist :dart:
