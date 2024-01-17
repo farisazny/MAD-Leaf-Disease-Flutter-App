@@ -6,12 +6,14 @@ import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(predictionPage());
 }
 
-class MyApp extends StatelessWidget {
+class predictionPage extends StatelessWidget {
+  const predictionPage({super.key});
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
       home: LeafDiseasePredictor(),
     );
