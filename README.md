@@ -79,8 +79,13 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
 ## Part 4: Final Flutter Application
 
 ### a. User Interface
-![Screenshot - Welcome Page](/Screenshot%20-%20Welcome%20Page.png)
-![Screenshot - Drawer](/Screenshot%20-%20Drawer.png)
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="/Screenshot%20-%20Welcome%20Page.png" alt="Screenshot - Welcome Page" style="width: 270px; height: 600px;">
+  <img src="/Screenshot%20-%20Drawer.png" alt="Screenshot - Drawer" style="width: 270px; height: 600px;">
+</div>
+
+
 
 ### b. Functions
 1. First page - button routing
