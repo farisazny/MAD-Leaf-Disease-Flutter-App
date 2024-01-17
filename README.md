@@ -76,6 +76,11 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
 ![Screenshot - Railway API Deployment](/Screenshot%20-%20Railway%20API%20Deployment.png)
 
 ## Part 4: Final Flutter Application
+- After we have setup the needed Leaf Disease API, we can now focus on developing the Flutter app. 
+- Some **dependencies** uses were path_provider 2.0.2, image_picker 0.8.4 and http 0.13.3. All of these are updated in pubspec.yaml.
+- For building **custom widgets**, we have components such as Drawer, List_Tile, Text_list in the Components folder.
+- For pages, the app comprises of **4 pages**, which are Welcome Page, Home Page, About Page and Prediction Page.
+- We have also set up **HTTPS image selector** in Prediction Page.
 
 ### a. User Interface
 
@@ -93,16 +98,16 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    </div>
    
 ### b. Interface Navigations
-1. First page - button routing
-2. Home Page - Side navigation bar
-3. Home page - Dashboard, Prediction, About
-6. Prediction page - Load ML API, buttons - TestConnection, fetch example Image, fetch own Image,
+- First page - button routing
+- Home Page - Side navigation bar
+- Home page - Dashboard, Prediction, About
+- Prediction page - Load ML API, buttons - TestConnection, fetch example Image, fetch own Image,
 
 ### c. Components
-1. Welcome page - icons
-2. Home Page - icons
-3. Home Page - custom Widgets in /components - drawer, list_tile, text_list
-4. 
+- Welcome page - icons
+- Home Page - icons
+- Home Page - custom Widgets in /components - drawer, list_tile, text_list
+
 
 
 
