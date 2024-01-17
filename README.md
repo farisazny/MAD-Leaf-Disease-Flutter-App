@@ -1,6 +1,6 @@
 # MAD-Leaf-Disease-Flutter-App
 
-App Idea: Creating a simple application to predict whether a leaf is infected with a disease or not. This is to accelerate the process of identifying the areas of plantations that are infected so that farmers can plan better on how to mitigate this issue. With the help of a Deep Learning model trained on VGG-16 architecture, this model will be able to help detect diseases on plants.
+**App Idea: ** Creating a simple application to predict whether a leaf is infected with a disease or not. This is to accelerate the process of identifying the areas of plantations that are infected so that farmers can plan better on how to mitigate this issue. With the help of a Deep Learning model trained on VGG-16 architecture, this model will be able to help detect diseases on plants.
 
 ## Meet the Team
 
