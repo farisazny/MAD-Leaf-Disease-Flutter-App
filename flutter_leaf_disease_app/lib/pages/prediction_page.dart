@@ -6,11 +6,11 @@ import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 
 void main() {
-  runApp(predictionPage());
+  runApp(PredictionPage());
 }
 
-class predictionPage extends StatelessWidget {
-  const predictionPage({super.key});
+class PredictionPage extends StatelessWidget {
+  const PredictionPage({super.key});
   @override
   Widget build(BuildContext context) {
     
@@ -122,10 +122,16 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor:const  Color.fromRGBO(34, 62, 54, 1),
       appBar: AppBar(
+        leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () => Navigator.of(context).pop(),
+          ),
         centerTitle: true,
         title: const Text('P R E D I C T I O N'),
         toolbarHeight: 100,
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
