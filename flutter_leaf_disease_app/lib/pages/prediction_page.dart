@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter_leaf_disease_app/pages/dashboard_page.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter/material.dart';
@@ -126,7 +127,15 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
       appBar: AppBar(
         leading: IconButton(
             icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.of(context).pop(),
+            onPressed: () {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                    builder: (context) =>
+                        dashboardPage()), // Replace with your DashboardPage widget
+              );
+            },
+          
           ),
         centerTitle: true,
         title: const Text('P R E D I C T I O N'),
