@@ -3,17 +3,17 @@
 App Idea: We're going to create a simple application in order to predict whether a leaf is infected with a disease or not. This is to accelerate the process of identifying the areas of plantations that are infected so that farmers can plan better on how to mitigate this issue.
 
 ## Meet the Team
-1. **Faris Farhan bin Azlan (2014177)** 
+1. **Faris Farhan bin Azlan (2014177)**  :monocle_face:
    - Building Machine Learning model
    - Building Local API on Flask
    - Deploying API to Railway
 
-2. **Muhammad Faris bin Musa (2013259)** 
+2. **Muhammad Faris bin Musa (2013259)** :sunglasses:
    - Flutter UI/UX Designer
    - Creating Widgets
    - Flutter Page Routing
 
-3. **Muhammad Ikmal Hafiz bin Jauffery (2016329)** 
+3. **Muhammad Ikmal Hafiz bin Jauffery (2016329)** :cowboy_hat_face:
    - Flutter Page Routing
    - Handling HTTP Requests
    - Backend Developer
