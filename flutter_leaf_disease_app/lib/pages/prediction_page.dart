@@ -123,7 +123,9 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Leaf Disease Predictor"),
+        centerTitle: true,
+        title: const Text('P R E D I C T I O N'),
+        toolbarHeight: 100,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
