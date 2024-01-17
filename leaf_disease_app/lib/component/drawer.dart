@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/component/list_tile.dart';
+import 'package:leaf_disease_app/component/list_tile.dart';
 
 class drawerComp extends StatelessWidget {
   const drawerComp({super.key});

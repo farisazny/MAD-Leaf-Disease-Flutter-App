@@ -1,7 +1,7 @@
 // ignore_for_file: camel_case_types, library_private_types_in_public_api, prefer_const_constructors, sort_child_properties_last, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/component/button.dart';
+import 'package:leaf_disease_app/component/button.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'dart:io';
