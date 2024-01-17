@@ -81,6 +81,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
 - For building **custom widgets**, we have components such as Drawer, List_Tile, Text_list in the Components folder.
 - For pages, the app comprises of **4 pages**, which are Welcome Page, Home Page, About Page and Prediction Page.
 - We have also set up **HTTPS image selector** in Prediction Page.
+- The screenshots were obtained through a **mobile emulator** of Pixel 4a.
 
 ### a. User Interface
 
@@ -97,16 +98,6 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    <img src="/Screenshot%20-%20About.png" alt="Screenshot - About" style="width: 220px; height: 490px;">
    </div>
    
-### b. Interface Navigations
-- First page - button routing
-- Home Page - Side navigation bar
-- Home page - Dashboard, Prediction, About
-- Prediction page - Load ML API, buttons - TestConnection, fetch example Image, fetch own Image,
-
-### c. Components
-- Welcome page - icons
-- Home Page - icons
-- Home Page - custom Widgets in /components - drawer, list_tile, text_list
 
 
 
