@@ -5,15 +5,18 @@ App Idea: We're going to create a simple application in order to predict whether
 ## Meet the Team
 1. **Faris Farhan bin Azlan (2014177)** 
    - Building Machine Learning model
-   - Deploying API on Railway
+   - Building Local API on Flask
+   - Deploying API to Railway
 
 2. **Muhammad Faris bin Musa (2013259)** 
    - Flutter UI/UX Designer
    - Creating Widgets
+   - Flutter Page Routing
 
 3. **Muhammad Ikmal Hafiz bin Jauffery (2016329)** 
    - Flutter Page Routing
-   - HTTP + Backend Functions
+   - Handling HTTP Requests
+   - Backend Developer
 
 
 ## Part 1: iTaleem Project Requirements Checklist :dart:
