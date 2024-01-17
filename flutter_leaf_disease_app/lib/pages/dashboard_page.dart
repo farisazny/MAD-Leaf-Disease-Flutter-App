@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/component/drawer.dart';
-import 'package:flutter_application_2/component/text_box.dart';
+import 'package:flutter_leaf_disease_app/component/drawer.dart';
+import 'package:flutter_leaf_disease_app/component/text_box.dart';
 
 class dashboardPage extends StatelessWidget {
   const dashboardPage({super.key});

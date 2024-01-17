@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/pages/about_page.dart';
-import 'package:flutter_application_2/pages/dashboard_page.dart';
-import 'package:flutter_application_2/pages/prediction_page.dart';
-import 'package:flutter_application_2/pages/welcome_page.dart';
+import 'package:flutter_leaf_disease_app/pages/about_page.dart';
+import 'package:flutter_leaf_disease_app/pages/dashboard_page.dart';
+import 'package:flutter_leaf_disease_app/pages/prediction_page.dart';
+import 'package:flutter_leaf_disease_app/pages/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
