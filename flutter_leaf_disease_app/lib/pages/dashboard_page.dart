@@ -1,8 +1,8 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_unnecessary_containers
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_unnecessary_containers, sort_child_properties_last
 
 import 'package:flutter/material.dart';
-import 'package:flutter_leaf_disease_app/component/drawer.dart';
-import 'package:flutter_leaf_disease_app/component/text_box.dart';
+import 'package:flutter_application_2/component/drawer.dart';
+import 'package:flutter_application_2/component/text_box.dart';
 
 class dashboardPage extends StatelessWidget {
   const dashboardPage({super.key});
@@ -18,11 +18,48 @@ class dashboardPage extends StatelessWidget {
       ),
       drawer: const drawerComp(),
 
-      body:Column(
-        children: [
+      body: Padding(
+        padding: const EdgeInsets.all(30.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+        
+            Icon(Icons.spa,
+                size: 110,
+                color: Colors.white,),
+             
+                Text('Leaf Guard',
+                style: TextStyle(
+                  fontSize: 30,
+              letterSpacing: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),),
+            
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text("Where Machine Learning Nurtures \nNature's Beauty!",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),),
+                ),
+                
+                SizedBox(height: 10,),
+            
+                textboxCOmp(text_1: 'Introduction', text_2: ' Introducing LeafGuard: DiseaseDetect, your revolutionary companion in leveraging machine learning to discern and deter leaf diseases in your plants. Dive into the realm of advanced technology, where predictive analysis takes center stage, foreseeing potential diseases before they manifest.'),
 
-          
-        ],
-      ));
+                SizedBox(height: 50,),
+
+               ElevatedButton(onPressed: () => Navigator.pushNamed(context,'/PredictionPage')
+               , child: Text('Start Prediction',
+               style: TextStyle
+               (color: Color.fromRGBO(34, 62, 54, 1),
+               fontWeight: FontWeight.bold),),
+               style: ButtonStyle(),)
+          ],
+        ),
+      ),
+      );
   }
 }

@@ -23,10 +23,11 @@ class welcomePage extends StatelessWidget {
             SizedBox(height: 20,),
           
             //title
-            Text('L E A F G U A R D',
+            Text('LEAF GUARD',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
+              letterSpacing: 15 ,
               fontSize: 20),),
 
             SizedBox(height: 10,),
@@ -34,6 +35,8 @@ class welcomePage extends StatelessWidget {
             //subtitle
             Text('Disease Detect',
             style: TextStyle(
+              fontWeight: FontWeight.bold,
+              letterSpacing: 5,
               color: Colors.white
             ),),
 

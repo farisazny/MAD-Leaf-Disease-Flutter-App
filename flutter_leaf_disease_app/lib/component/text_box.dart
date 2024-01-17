@@ -1,36 +1,37 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_unnecessary_containers
+
 import 'package:flutter/material.dart';
 
 class textboxCOmp extends StatelessWidget {
-final String text_1;
-final String text_2;
-
+  final String text_1;
+  final String text_2;
 
   const textboxCOmp({
     super.key,
     required this.text_1,
-    required this.text_2
-    });
+    required this.text_2});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-      body: Column(
+    return Container(
+      child: Column(
         children: [
 
-          Text(text_1,
-          style: const TextStyle(
-            fontSize: 20,
+          Text(text_1,textAlign: TextAlign.center,
+          style: TextStyle(
             fontWeight: FontWeight.bold,
+            fontSize: 20,
             color: Colors.white
           ),),
 
-          const SizedBox(height: 10,),
+          SizedBox(height: 15,),
 
           Text(text_2,
-          style: const TextStyle(
+          textAlign: TextAlign.center,
+          style: TextStyle(
             color: Colors.white
-          ),)
+          ),),
+
         ],
       ),
     );

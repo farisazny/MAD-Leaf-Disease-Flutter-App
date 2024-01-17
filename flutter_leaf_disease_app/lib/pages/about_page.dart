@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_leaf_disease_app/component/text_list.dart';
+import 'package:flutter_application_2/component/text_list.dart';
 
 class aboutPage extends StatelessWidget {
   const aboutPage({super.key});

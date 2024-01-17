@@ -1,22 +1,21 @@
-import 'dart:convert';
-import 'package:flutter_leaf_disease_app/pages/dashboard_page.dart';
-import 'package:http/http.dart' as http;
-import 'package:path_provider/path_provider.dart';
+// ignore_for_file: camel_case_types, library_private_types_in_public_api, prefer_const_constructors, sort_child_properties_last, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/component/button.dart';
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
+import 'package:path_provider/path_provider.dart';
 
-void main() {
- runApp(predictionPage());
-}
 
 class predictionPage extends StatelessWidget {
   const predictionPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: LeafDiseasePredictor(),
+    return Container(
+      child: LeafDiseasePredictor(),
     );
   }
 }
@@ -119,62 +118,58 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
       print(e.toString());
     }
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromRGBO(34, 62, 54, 1),
       appBar: AppBar(
-          leading: IconButton(
-            icon: Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                    builder: (context) =>
-                        const dashboardPage()), // Replace with your DashboardPage widget
-              );
-            },
-          ),
-          centerTitle: true,
-          title: const Text(' P R E D I C T I O N'),
-          toolbarHeight: 100),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            _image != null
-                ? Image.file(_image!, height: 200, width: 200)
-                : const Text("No image selected"),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _testConnection,
-              child: const Text("Test Connection"),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _getImageFromGallery,
-              child: const Text("Choose from Gallery"),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () => fetchImage(
-                  "https://www.planetnatural.com/wp-content/uploads/2012/12/anthracnose-1.jpg"),
-              child: Text('Fetch Example Image'),
-            ),
-            ElevatedButton(
-              onPressed: _predictLeafDisease,
-              child: const Text("Predict Disease"),
-            ),
-            const SizedBox(height: 20),
-            Text(
-              _prediction,
-              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-            ),
-          ],
-        ),
+        centerTitle: true,
+        title: const Text(' P R E D I C T I O N'),
+        toolbarHeight: 100,
       ),
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.only(top:80.0),
+
+          child: Column(
+            children: [
+              _image != null
+                  ? Image.file(_image!, height: 200, width: 200)
+                  : Container(child: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: const Icon(Icons.upload,
+                    size: 100,),
+                  ),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(20)
+                  ),
+                  ),
+
+               SizedBox(height: 10),
+
+
+               SizedBox(height: 20),
+
+              
+            buttonComp(onPressed: _getImageFromGallery, text: 'Gallery', icon: Icons.image),
+            
+            buttonComp(onPressed: () => fetchImage("https://www.planetnatural.com/wp-content/uploads/2012/12/anthracnose-1.jpg") , text: 'Browse', icon: Icons.web),
+              const SizedBox(height: 50),
+
+            buttonComp(onPressed: _predictLeafDisease, text: 'Predict', icon: Icons.search),
+
+              const SizedBox(height: 20),
+              Text(
+                _prediction,
+                style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.white),
+              ),
+
+            
+            ],
+          ),
+            ),
+      ) ,
     );
   }
 }
