@@ -25,7 +25,7 @@ class drawerComp extends StatelessWidget {
           
           //dashboard tiles
           listTileComp(
-            text: 'Dasboard', 
+            text: 'Dashboard', 
             icon: Icons.home, 
             onTap: () => Navigator.pop(context)),
           
