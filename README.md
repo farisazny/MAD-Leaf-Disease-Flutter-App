@@ -6,7 +6,7 @@ App Idea: Creating simple application in order to predict whether a leaf is infe
 1. **Faris Farhan bin Azlan (2014177)**  :monocle_face:
    - Building Machine Learning model
    - Building Local API on Flask
-   - Deploying API to Railway
+   - Deploying API online to Railway
 
 2. **Muhammad Faris bin Musa (2013259)** :sunglasses:
    - Flutter UI/UX Designer
