@@ -49,6 +49,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    4. Press Send to initiate the POST request.
 
 <img src="/Screenshot%20-%20Postman%20Test.png" alt="Screenshot - Postman Test" style="width: 550px; height: 360px;">
+
 ### c. Run the API.py and main.dart simulataneously
    1. Make sure that the terminal has a python and dart file running.
    2. Note that API.py will tell you to use "127.0.0.1"
