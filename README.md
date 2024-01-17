@@ -22,11 +22,11 @@
 
 | No. | Feature                        | Details/Notes                                                                   | Status           |
 |-----|--------------------------------|----------------------------------------------------------------------------------|------------------|
-| 1.  | **Leaf Disease API**           | - Utilizes the VGG16 pre-trained deep learning model by Keras.                   | :heavy_check_mark:|
-|     |                                | - The model is tuned to learn about numerous plant diseases.                      |:heavy_check_mark:                  |
-|     |                                | - Predicts the type of diseases based on an input image of a leaf.                |:heavy_check_mark:                  |
-|     |                                | - Built locally using Flask; run "Leaf Disease API.py" first.                     |:heavy_check_mark:                  |
-|     |                                | - Accessible via Postman using the POST method through the `/predict` route.     |:heavy_check_mark:                  |
+| 1.  | **Leaf Disease API**           | - Utilize the VGG16 pre-trained deep learning model by Keras.                   | :heavy_check_mark:|
+|     |                                | - Tune model to learn about numerous plant diseases from Kaggle                     |:heavy_check_mark:                  |
+|     |                                | - Model predicts the type of diseases based on an input image of a leaf.                |:heavy_check_mark:                  |
+|     |                                | - Build local API on Flask, and deploy online on Railway.                    |:heavy_check_mark:                  |
+|     |                                | - Make it accessible via Postman through the `/predict` route.     |:heavy_check_mark:                  |
 | 2.  | **Flutter Predict Page**       | - Develop UI to call the API and display predictions.                             | :heavy_check_mark:|
 |     |                                | - Prioritize development due to potential complexity in handling image data.     |:heavy_check_mark:                  |
 | 3.  | **Flutter Home Page**          | - Develop as the second step to establish the basics of the app.                  | :heavy_check_mark:|
