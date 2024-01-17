@@ -16,9 +16,9 @@ App Idea: We're going to create a simple application in order to predict whether
    - HTTP + Backend Functions
 
 
-## Part 1: Project Requirements Checklist :dart:
+## Part 1: iTaleem Project Requirements Checklist :dart:
 - The use of Widgets to create your own UI :white_check_mark:
-- The use of HTTP library for fetching data/img online
+- The use of HTTP library for fetching data/img online :white_check_mark:
 - Use your own API or any free or paid API. You can rely on more than 1 API provider :white_check_mark:
 - Use of page routing to navigate between pages of your app :white_check_mark:
 
