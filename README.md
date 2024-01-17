@@ -92,6 +92,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
    <img src="/Screenshot%20-%20Prediction2.png" alt="Screenshot - Prediction2" style="width: 220px; height: 490px;">
    <img src="/Screenshot%20-%20About.png" alt="Screenshot - About" style="width: 220px; height: 490px;">
    </div>
+   
 ### b. Interface Navigations
 1. First page - button routing
 2. Home Page - Side navigation bar
