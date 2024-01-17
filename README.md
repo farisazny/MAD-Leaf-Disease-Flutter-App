@@ -83,7 +83,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
 </div>
 <div style="display: flex; justify-content: space-between;">
    
-   <img src="/Screenshot%20-%20Prediction.jpeg" alt="Screenshot - Prediction" style="width: 220px; height: 490px;">
+   <img src="/Screenshot%20-%20Prediction1.jpeg" alt="Screenshot - Prediction" style="width: 220px; height: 490px;">
    <img src="/Screenshot%20-%20Prediction2.jpeg" alt="Screenshot - Prediction2" style="width: 220px; height: 490px;">
    <img src="/Screenshot%20-%20About.jpeg" alt="Screenshot - About" style="width: 220px; height: 490px;">
    </div>
