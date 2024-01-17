@@ -18,28 +18,22 @@
 - Use your own API or any free or paid API. You can rely on more than 1 API provider :white_check_mark:
 - Use of page routing to navigate between pages of your app :white_check_mark:
 
-
-
 ## Part 2: App Development Roadmap :vertical_traffic_light:
 
-1. **Leaf Disease API** :white_check_mark:
-   - Utilizes the VGG16 pre-trained deep learning model by Keras.
-   - The model is tuned to learn about numerous plants diseases.
-   - Predicts the type of diseases based on an input image of a leaf.
-   - Built locally using Flask; run "Leaf Disease API.py" first.
-   - Accessible via Postman using the POST method through the `/predict` route.
+| No. | Feature                        | Details/Notes                                                                   | Status           |
+|-----|--------------------------------|----------------------------------------------------------------------------------|------------------|
+| 1.  | **Leaf Disease API**           | - Utilizes the VGG16 pre-trained deep learning model by Keras.                   | :heavy_check_mark:|
+|     |                                | - The model is tuned to learn about numerous plant diseases.                      |:heavy_check_mark:                  |
+|     |                                | - Predicts the type of diseases based on an input image of a leaf.                |:heavy_check_mark:                  |
+|     |                                | - Built locally using Flask; run "Leaf Disease API.py" first.                     |:heavy_check_mark:                  |
+|     |                                | - Accessible via Postman using the POST method through the `/predict` route.     |:heavy_check_mark:                  |
+| 2.  | **Flutter Predict Page**       | - Develop UI to call the API and display predictions.                             | :heavy_check_mark:|
+|     |                                | - Prioritize development due to potential complexity in handling image data.     |:heavy_check_mark:                  |
+| 3.  | **Flutter Home Page**          | - Develop as the second step to establish the basics of the app.                  | :heavy_check_mark:|
+|     |                                | - Introduce users to the app's purpose and objectives.                            | :heavy_check_mark:                 |
+| 4.  | **Flutter Welcome Page**       | - Authenticate users to access the application.                                   | :heavy_check_mark:|
+|     |                                | - Develop last to ensure the functionality of other features first.               | :heavy_check_mark:                 |
 
-2. **Flutter Predict Page** :white_check_mark:
-   - Develop UI to call the API and display predictions. 
-   - Prioritize development due to potential complexity in handling image data.
-  
-3. **Flutter Home Page** :white_check_mark:
-   - Develop as the second step to establish the basics of the app.
-   - Introduce users to the app's purpose and objectives.
-
-4. **Flutter Welcome Page** :white_check_mark:
-   - Authenticate users to access the application.
-   - Develop last to ensure functionality of other features first.
 
 ## Part 3: Leaf Disease API (Local & Railway Web Deployment) :train2:
 As seen from a-c below, we first built the API locally. Then, we realized that running it locally and developing the Flutter app at the same time will cost a lot of compute power onto our machine.
