@@ -89,7 +89,7 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
 <div style="display: flex; justify-content: space-between;">
    
    <img src="/Screenshot%20-%20Prediction.png" alt="Screenshot - Prediction" style="width: 220px; height: 490px;">
-   <img src="/Screenshot%20-%20Prediction.png" alt="Screenshot - Prediction2" style="width: 220px; height: 490px;">
+   <img src="/Screenshot%20-%20Prediction2.png" alt="Screenshot - Prediction2" style="width: 220px; height: 490px;">
    <img src="/Screenshot%20-%20About.png" alt="Screenshot - About" style="width: 220px; height: 490px;">
    </div>
 ### b. Interface Navigations
