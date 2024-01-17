@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:flutter_leaf_disease_app/pages/dashboard_page.dart';
-import 'package:flutter_leaf_disease_app/pages/welcome_page.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter/material.dart';
@@ -8,14 +7,14 @@ import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 
 void main() {
-  runApp(PredictionPage());
+ runApp(predictionPage());
 }
 
-class PredictionPage extends StatelessWidget {
-  const PredictionPage({super.key});
+class predictionPage extends StatelessWidget {
+  const predictionPage({super.key});
+
   @override
   Widget build(BuildContext context) {
-    
     return MaterialApp(
       home: LeafDiseasePredictor(),
     );
@@ -32,8 +31,8 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
   String _prediction = "Prediction will appear here";
 
   Future<Map<String, dynamic>> detectDisease(String imagePath) async {
-    final String apiUrl =
-        "https://flask-production-4847.up.railway.app/predict"; // Replace with your Flask API endpoint
+    const String apiUrl =
+        "https://flask-production-4847.up.railway.app/predict"; 
 
     try {
       var request = http.MultipartRequest('POST', Uri.parse(apiUrl))
@@ -68,7 +67,7 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
   }
 
   Future<void> _getImageFromGallery() async {
-    final image = await ImagePicker().getImage(source: ImageSource.gallery);
+    final image = await ImagePicker().pickImage(source: ImageSource.gallery);
     if (image != null) {
       setState(() {
         _image = File(image.path);
@@ -124,25 +123,22 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:const  Color.fromRGBO(34, 62, 54, 1),
+      backgroundColor: const Color.fromRGBO(34, 62, 54, 1),
       appBar: AppBar(
-        leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back),
             onPressed: () {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
                     builder: (context) =>
-                        const PredictionPage()),
+                        const dashboardPage()), // Replace with your DashboardPage widget
               );
             },
-          
           ),
-        centerTitle: true,
-        title: const Text('P R E D I C T I O N'),
-        toolbarHeight: 100,
-
-      ),
+          centerTitle: true,
+          title: const Text(' P R E D I C T I O N'),
+          toolbarHeight: 100),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -182,4 +178,3 @@ class _LeafDiseasePredictorState extends State<LeafDiseasePredictor> {
     );
   }
 }
-

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       '/WelcomePage' :(context) => const welcomePage(),
       '/DashboardPage' :(context) => const dashboardPage(),
       '/AboutPage' :(context) => const aboutPage(),
-      '/PredictionPage' :(context) => const PredictionPage(),
+      '/PredictionPage' :(context) => const predictionPage(),
       
       
     }
