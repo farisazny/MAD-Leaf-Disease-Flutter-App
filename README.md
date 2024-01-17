@@ -83,17 +83,21 @@ As seen from point d onwards, we have deployed the API using Railway and can be 
 <div style="display: flex; justify-content: space-between;">
   <img src="/Screenshot%20-%20Welcome%20Page.png" alt="Screenshot - Welcome Page" style="width: 270px; height: 600px;">
   <img src="/Screenshot%20-%20Drawer.png" alt="Screenshot - Drawer" style="width: 270px; height: 600px;">
+   <img src="/Screenshot%20-%20Dashboard.png" alt="Screenshot - Dashboard" style="width: 270px; height: 600px;">
 </div>
 
 
-
-### b. Functions
+### b. Interface Navigations
 1. First page - button routing
 2. Home Page - Side navigation bar
 3. Home page - Dashboard, Prediction, About
-4. Home Page - Icons
-5. Home Page - custom Widgets in /components - drawer, list_tile, text_list
 6. Prediction page - Load ML API, buttons - TestConnection, fetch example Image, fetch own Image,
+
+### c. Components
+1. Welcome page - icons
+2. Home Page - icons
+3. Home Page - custom Widgets in /components - drawer, list_tile, text_list
+4. 
 
 
 
